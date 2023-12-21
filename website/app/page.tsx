@@ -1,0 +1,13 @@
+import {motion} from  "framer-motion"
+import { Metadata } from "next"
+export const metadata: Metadata = {
+  title: "me - henri"
+}
+export default function Home() {
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-[#FFFFF0]">
+      <h2  className="text-black text-4xl">I am henri.</h2>
+      <p></p>
+    </div>
+  )
+}
