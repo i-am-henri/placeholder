@@ -1,12 +1,9 @@
 "use client"
 import { useRef, useState, useEffect } from "react"
 import { useInView } from "framer-motion"
-import { useWindowSize } from "@uidotdev/usehooks"
 import Link from "next/link"
 
 export default function PageContent() {
-    const size = useWindowSize();
-    console.log(size)
     const [styletext, setStyleText] = useState<string>()
     const ref = useRef(null)
     const [windowHeight, setWindowHeight] = useState<number>()
