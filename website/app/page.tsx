@@ -7,7 +7,8 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#FFFFF0]">
       <h2  className="text-black text-4xl">I am henri.</h2>
-      <p></p>
+      <p className="text-black">I code weird stuff on the internet.</p>
+      
     </div>
   )
 }
