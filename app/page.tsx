@@ -1,5 +1,4 @@
-import Link from "next/link"
-import { motion } from "framer-motion"
+
 import { Metadata } from "next"
 import PageContent from "./PageContent"
 export const metadata: Metadata = {
